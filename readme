@@ -1,0 +1,46 @@
+I would like you to automatically get Japanese from yahoo news and generate a word vector
+model. The categories are as follows
+• Economy: https://news.yahoo.co.jp/categories/business
+• Sports: https://news.yahoo.co.jp/categories/sports
+• IT: https://news.yahoo.co.jp/categories/it
+• Science: https://news.yahoo.co.jp/categories/science
+* At least 10 news items must be obtained for each category.
+
+-Automatically get the body of the news and save it in a file for each category
+• Shuffle the original news text file line by line
+• Use jieba to segment all news text content and
+• Gets a thesaurus (a text file with one word per line).
+• Train the thesaurus using word2vec and generate a word vector model-Save the generated word vector model to a file
+
+• Python 3+
+• pytorch 1.8.1
+• jieba latest
+-Generated word vector model file
+
++++++++++++++++++++++++++++++++++++++++
+
+背景
+自動的に yahoo ニュースから日本語を取得し単語ベクトルモデルを生成していただきたい
+です。カテゴリは以下となります
+・経済：https://news.yahoo.co.jp/categories/business
+・スポーツ：https://news.yahoo.co.jp/categories/sports
+・IT：https://news.yahoo.co.jp/categories/it
+・科学：https://news.yahoo.co.jp/categories/science
+※各カテゴリは最低 10 個ニュースを取得が必要です。
+機能要件
+・自動的にニュースをの本文を取得してカテゴリごとにファイルに保存
+・元のニューステキストファイルを 1 行ずつシャッフルします
+・ jieba を使用して、すべてのニューステキストコンテンツをセグメント化し、
+シソーラス（1 行に 1 語のテキストファイル）を取得します。
+・ word2vec を使用してシソーラスをトレーニングし、単語ベクトルモデルを生成します
+・生成された単語ベクトルモデルはファイルに保存してください
+開発要件
+・Python 3+
+・pytorch 1.8.1
+・jieba 最新
+提出内容
+・開発されたソース
+・取得したニュースファイル
+・生成された単語ベクトルモデルファイル
+
++++++++++++++++++++++++++++++++++++++++
